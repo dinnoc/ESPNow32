@@ -4,12 +4,6 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
-//wifi management 
-
-//new speed management term
-
-//further update to test pull requests in vscode
-
 
 //set Reciever MacAddress  94:B9:7E:D9:3B:98
 
