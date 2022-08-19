@@ -4,7 +4,7 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
-//wifi management branch new one -----   next update
+//wifi management branch new one -----   next update ----spped impvt branch --- 2nd effort at this ----
 
 //set Reciever MacAddress  94:B9:7E:D9:3B:98
 
