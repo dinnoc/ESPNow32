@@ -1,0 +1,87 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\james\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.4\\cores\\esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\james\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.4\\variants\\d32"
+  },
+  {
+    "Sourcefile": "c:\\Users\\james\\OneDrive\\Documents\\Arduino\\ESPNow32\\build\\sketch\\ESPNowSend.ino.cpp",
+    "Include": "WiFi.h",
+    "Includepath": "C:\\Users\\james\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.4\\libraries\\WiFi\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\james\\OneDrive\\Documents\\Arduino\\ESPNow32\\build\\sketch\\ESPNowSend.ino.cpp",
+    "Include": "OneWire.h",
+    "Includepath": "C:\\Users\\james\\OneDrive\\Documents\\Arduino\\libraries\\OneWire"
+  },
+  {
+    "Sourcefile": "c:\\Users\\james\\OneDrive\\Documents\\Arduino\\ESPNow32\\build\\sketch\\ESPNowSend.ino.cpp",
+    "Include": "DallasTemperature.h",
+    "Includepath": "C:\\Users\\james\\OneDrive\\Documents\\Arduino\\libraries\\DallasTemperature"
+  },
+  {
+    "Sourcefile": "c:\\Users\\james\\OneDrive\\Documents\\Arduino\\ESPNow32\\build\\sketch\\ESPNowSend.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\james\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.4\\libraries\\WiFi\\src\\WiFi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\james\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.4\\libraries\\WiFi\\src\\WiFiAP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\james\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.4\\libraries\\WiFi\\src\\WiFiClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\james\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.4\\libraries\\WiFi\\src\\WiFiGeneric.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\james\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.4\\libraries\\WiFi\\src\\WiFiMulti.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\james\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.4\\libraries\\WiFi\\src\\WiFiSTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\james\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.4\\libraries\\WiFi\\src\\WiFiScan.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\james\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.4\\libraries\\WiFi\\src\\WiFiServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\james\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.4\\libraries\\WiFi\\src\\WiFiUdp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\james\\OneDrive\\Documents\\Arduino\\libraries\\OneWire\\OneWire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\james\\OneDrive\\Documents\\Arduino\\libraries\\DallasTemperature\\DallasTemperature.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
