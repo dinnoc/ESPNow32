@@ -10,6 +10,7 @@
 // set Reciever MacAddress  94:B9:7E:D9:3B:98
 
 uint8_t broadcastAddress[] = {0x94, 0xB9, 0x7E, 0xD9, 0x3B, 0x98};
+#define boardName   "Board_Boiler"
 
 // Structure example to send data
 // Must match the receiver structure
@@ -27,7 +28,6 @@ typedef struct struct_message
 // Create a struct_message called myData
 struct_message myData;
 esp_now_peer_info_t peerInfo;
-int retry = 0;
 
 //--------------------------------WIFI MANAGEMENT------------------------------
 
@@ -65,7 +65,7 @@ DallasTemperature sensors(&oneWire);
 // Deep sleep parameters
 
 #define uS_TO_S_FACTOR 1000000ULL /* Conversion factor for micro seconds to seconds */
-#define TIME_TO_SLEEP 5 //1200
+#define TIME_TO_SLEEP 1200
 RTC_DATA_ATTR int resetChan = 0;
 int mStart, mEnd, mDiff = 0;
 
@@ -105,7 +105,7 @@ void readAndSend()
   Serial.print("Temp reading:");
   Serial.println(sensors.getTempCByIndex(0));
 
-  strcpy(myData.a, "Board_1");
+  strcpy(myData.a, boardName);
   myData.c = sensors.getTempCByIndex(0);
 
   esp_err_t result = esp_now_send(broadcastAddress, (uint8_t *)&myData, sizeof(myData));
@@ -119,6 +119,7 @@ void setup()
   esp_sleep_enable_timer_wakeup(TIME_TO_SLEEP * uS_TO_S_FACTOR);
 
   Serial.println("Sender node");
+  Serial.println(boardName);
   WiFi.mode(WIFI_STA);
 
 
