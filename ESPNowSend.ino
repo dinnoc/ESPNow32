@@ -65,7 +65,7 @@ DallasTemperature sensors(&oneWire);
 // Deep sleep parameters
 
 #define uS_TO_S_FACTOR 1000000ULL /* Conversion factor for micro seconds to seconds */
-#define TIME_TO_SLEEP 1200
+#define TIME_TO_SLEEP 300
 RTC_DATA_ATTR int resetChan = 0;
 int mStart, mEnd, mDiff = 0;
 
